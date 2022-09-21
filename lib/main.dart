@@ -12,16 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Calculator', //remove the debug sign
+      title: 'Calculator',
       home: MyHomePage(),
     );
   }
 }
 
-// change the colors of the buttons to white except for C, Del, %, Ans, /, x, -, +, =
-// change the colors of the text to black for the white buttons then white for the other color
-// try using another phone model
-// equals to isn't working
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
